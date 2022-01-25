@@ -50,9 +50,9 @@ public class Stack {
             System.out.println("add value: "+ value);
         }
         stack.print();
-        System.out.println(stack.peek());
+        //System.out.println(stack.peek());
         stack.pop();
-        System.out.println(stack.peek());
+        //System.out.println(stack.peek());
         System.out.println(stack.isEmpty());
         for(int i=0; i <14 ; i++){
 			stack.pop();
